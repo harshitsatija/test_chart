@@ -36,7 +36,7 @@ const MyResponsiveSunburst = ({ data }) => {
           sort: undefined,
       
           emphasis: {
-            focus: 'ancestor'
+            focus: 'descendant',
           },
       
           levels: [
