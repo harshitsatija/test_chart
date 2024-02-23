@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import MyResponsiveSunburst from './MyResponsiveSunburst';
+import myData from './myData'; // This should be the data you want to visualize with the Sunburst chart
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App2" style={{
+      height: '100vh', 
+      width: '100vw', 
+      display: 'flex', 
+      justifyContent: 'center', 
+      alignItems: 'center',
+      overflow: 'hidden'
+    }}>
+      <div className="App" style={{
+        height: '500px', 
+        width: '100%', 
+        paddingTop: '20px', // Add top padding
+        paddingBottom: '20px' // Add bottom padding
+      }}>
+        <MyResponsiveSunburst data={myData} />
+      </div>
     </div>
   );
 }
