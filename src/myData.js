@@ -4,26 +4,14 @@ const echartsData = [
         color: "hsl(49, 70%, 50%)",
         children: [
             {
-                name: "API Token",
+                name: "Service Account",
                 color: "hsl(49, 70%, 50%)",
-                children: [
-                    {
-                        name: "Critical",
-                        color: "#da1d23",
-                        value: 2
-                    }
-                ]
+                value: 2
             },
             {
-                name: "Key Pair",
+                name: "Application",
                 color: "hsl(49, 70%, 50%)",
-                children: [
-                    {
-                        name: "Warning",
-                        color: "hsl(49, 70%, 50%)",
-                        value: 1
-                    }
-                ]
+                value: 1
             }
         ]
     },
@@ -32,26 +20,14 @@ const echartsData = [
         color: "hsl(220, 70%, 50%)",
         children: [
             {
-                name: "API Token",
+                name: "Service Account",
                 color: "hsl(220, 70%, 50%)",
-                children: [
-                    {
-                        name: "Critical",
-                        color: "hsl(220, 70%, 50%)",
-                        value: 1
-                    }
-                ]
+                value: 1
             },
             {
-                name: "OAuth Token",
+                name: "Application",
                 color: "hsl(220, 70%, 50%)",
-                children: [
-                    {
-                        name: "Warning",
-                        color: "hsl(206, 70%, 50%)",
-                        value: 1
-                    }
-                ]
+                value: 1
             }
         ]
     },
@@ -60,15 +36,9 @@ const echartsData = [
         color: "hsl(120, 70%, 50%)",
         children: [
             {
-                name: "Service Account Key",
+                name: "Service Account",
                 color: "hsl(120, 70%, 50%)",
-                children: [
-                    {
-                        name: "Critical",
-                        color: "hsl(0, 70%, 50%)",
-                        value: 3
-                    }
-                ]
+                value: 3
             }
         ]
     },
@@ -77,15 +47,9 @@ const echartsData = [
         color: "hsl(30, 70%, 50%)",
         children: [
             {
-                name: "Personal Access Token",
+                name: "Organization Account",
                 color: "hsl(30, 70%, 50%)",
-                children: [
-                    {
-                        name: "Critical",
-                        color: "hsl(0, 70%, 50%)",
-                        value: 2
-                    }
-                ]
+                value: 2
             }
         ]
     },
@@ -94,15 +58,9 @@ const echartsData = [
         color: "hsl(260, 70%, 50%)",
         children: [
             {
-                name: "Access Token",
+                name: "Group Account",
                 color: "hsl(260, 70%, 50%)",
-                children: [
-                    {
-                        name: "Warning",
-                        color: "hsl(206, 70%, 50%)",
-                        value: 1
-                    }
-                ]
+                value: 1
             }
         ]
     }
